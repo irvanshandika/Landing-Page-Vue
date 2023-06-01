@@ -3,10 +3,11 @@
 <template>
   <section class="hero">
     <div class="container-fluid px-5 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6 ms-10">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5 order-lg-first">
+        <div class="col-12 col-sm-8 col-lg-6 ms-10">
           <lottie-player
             src="https://assets3.lottiefiles.com/packages/lf20_xY418y0j6x.json"
+            class="mx-auto"
             background="transparent"
             speed="1"
             style="width: 400px; height: 400px"
@@ -31,5 +32,4 @@
   </section>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
